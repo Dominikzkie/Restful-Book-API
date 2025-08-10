@@ -16,6 +16,12 @@ yarn add cypress --dev
 ![installing-cli e1693232](https://user-images.githubusercontent.com/1271364/31740846-7bf607f0-b420-11e7-855f-41c996040d31.gif)
 ![](https://www.cypress.io/static/33498b5f95008093f5f94467c61d20ab/59c46/cypress-logo.webp)
 
+## Dependencies
+
+Before running this project, ensure you have the following installed:
+
+- [Faker](https://fakerjs.dev/api/) (>= 9.9.0)
+
 ## How to run scripts in GUI Mode??
 
 1. To open Cypress GUI Runner, run command line:
