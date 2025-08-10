@@ -37,7 +37,7 @@ yarn add cypress --dev
 
 4. Select a spec file you want to execte. For this exam, select automateSteps.cy.js
 ```bash
-  automateSteps.cy.js
+  api-testing.cy.js
 ```
 
 ## How to run scripts in Headless Mode??
@@ -48,23 +48,8 @@ yarn add cypress --dev
 ```
 2. To run specific test case and browser:
 ```bash
-  npx cypress run --headless --browser edge --spec 'cypress/e2e/automateSteps.cy.js'
+  npx cypress run --headless --browser edge --spec 'cypress/e2e/api-testing.cy.js'
 ```
-
-## 📁 Project Structure
-
-📁 cypress
-├── 📁 e2e # Main test specs
-│ ├── 📁 specs.cy.js
-├── 📁 Fixtures
-│ ├── 📁 Images, videos, json files, etc
-├── 📁 Page Objects
-│ ├── 📁 common-elements.js
-│ ├── 📁 different areas.js
-├── 📁 Support
-│ ├── 📁 custom commands
-├── 📁 Videos
-├── 📁 Screenshots
 
 ## 📚 References
 [Cypress Best Practices](https://docs.cypress.io/app/core-concepts/best-practices)
